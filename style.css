@@ -1,0 +1,85 @@
+body{
+    box-sizing: border-box;
+    margin: 80px;
+    margin-bottom: 12%;
+    background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+
+}
+
+section{
+    background: white;
+    background:  linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    text-align: center;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+h1{
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    
+}
+
+p{
+    display: inline;
+    margin: auto;
+    font-size: 120px;
+    font-family: Helvetica,Arial, sans-serif;
+    color:white;
+}
+
+
+
+#ini{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+    font-family: Helvetica,Arial, sans-serif;
+ 
+}
+
+#par{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 10%;
+    font-family: Helvetica,Arial, sans-serif;
+
+}
+
+#reimi{
+    cursor: pointer;
+    background-color: darkgray;
+    color: black;
+    font-size: 20px;
+    border-radius: 10%;
+    font-family: Helvetica,Arial, sans-serif;
+
+
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+@media screen and (min-width: 450px)  {
+    body{
+        box-sizing: border-box;
+        margin: 80px;
+        margin-bottom: 22%;
+        background-image: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+    
+    }
+    
+}
+
